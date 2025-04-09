@@ -13,7 +13,7 @@ public interface TaskService {
 
     Optional<Task> getTaskById(String id);
 
-    List<Task> getCompletedTasks();
+    List<Task> getDoneTasks();
 
     void deleteTask(String id);
 }
